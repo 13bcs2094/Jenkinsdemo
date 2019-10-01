@@ -9,7 +9,7 @@ public class Jenkins {
 	@Test
 	public void testJenkins() {
 		
-        System.setProperty("webdriver.gecko.driver","C:\\eclipse-workspace\\Jenkins Demo\\geckodriver.exe");
+        System.setProperty("webdriver.gecko.driver","C:\\eclipse-workspace\\Jenkins Demo\\driver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver(); 
 		driver.get("https://www.google.com/");
 		
